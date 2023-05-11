@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;400&family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+    font-family: "Public Sans", sans-serif;
+}
+
+nav {
+    background-color: #8c8183;
+    
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+nav .company-name {
+    
+    display: flex;
+    align-items: center;
+    margin-right: 3vw;
+}
+nav .company-name .logo{
+    width:2.5vw;
+    height:2.5vw;
+    padding:1vw;
+}
+nav .navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .head {
+    padding: 2vw;
+    text-decoration: none;
+    opacity: .9;
+    font-size: 1vw;
+    color: rgb(243, 234, 234);
+
+}
+
+.company-name .company{
+    color: black;
+    padding: 1vw 1vw 1vw 0vw;
+    text-decoration: none;
+    opacity: 1;
+    font-size:1.5vw;
+
+}
+
