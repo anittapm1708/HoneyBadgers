@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: #8c8183;
+    background-color: #461220;
     
     height: 4vw;
     display: flex;
@@ -33,18 +33,24 @@ nav .navbar {
 .navbar .head {
     padding: 2vw;
     text-decoration: none;
-    opacity: .9;
-    font-size: 1vw;
-    color: rgb(243, 234, 234);
+    opacity: 1;
+    font-size: 1.2vw;
+    color: #FEFAE0;
 
 }
 
 .company-name .company{
-    color: black;
+    color: #FEFAE0;
     padding: 1vw 1vw 1vw 0vw;
     text-decoration: none;
     opacity: 1;
     font-size:1.5vw;
 
 }
-
+.head{
+    display:flex;
+    flex-direction: row;
+}
+.icon{
+    padding: 0vw 1vw 0vw 1vw;
+}

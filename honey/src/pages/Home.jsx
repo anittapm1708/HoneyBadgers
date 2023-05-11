@@ -1,7 +1,13 @@
 import Navbar from "../components/Navbar";
 import Part from "./Part";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 import "../css/Home.css";
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   let imgs = [
     "https://honeybadgersco.com/static/media/img1.fabe6432c395e3996808.jpg",
     "https://honeybadgersco.com/static/media/img2.755b4968f855993e9311.jpg",
@@ -17,11 +23,11 @@ const Home = () => {
         <Part />
         <div className="main-content">
           <h1>HONEYBADGERSCO</h1>
-          <h3>PASSION.POSSIBILITIES.INNOVATIONS</h3>
+          <h3>PASSION.POSSIBILITIES.INNOVATIONS!</h3>
         </div>
       </div>
       <div className="content2">
-        <div className="content2-desc">
+        <div data-aos="flip-up" className="content2-desc">
           <h4>PROJECT</h4>
           <p>
             Our company is constantly aiming on acquiring good projects and
@@ -29,7 +35,7 @@ const Home = () => {
             in making it happen.
           </p>
         </div>
-        <div className="content2-desc">
+        <div data-aos="flip-up" className="content2-desc">
           <h4>QUALITY</h4>
           <p>
             HoneyBadgers believes in delivering quality in its work and be the
@@ -37,7 +43,7 @@ const Home = () => {
             value to every customer.
           </p>
         </div>
-        <div className="content2-desc">
+        <div data-aos="flip-up" className="content2-desc">
           <h4>NETWORK</h4>
           <p>
             We believe in Networking more than on one time customers, Our
@@ -85,6 +91,7 @@ const Home = () => {
         </div>
       </div>
       <div className="content4">
+      <div></div>
         <p>
           HONEYBADGERSCO is a technology and digital IT Consultation firm
           specializing in innovative software solutions. Which is Known for

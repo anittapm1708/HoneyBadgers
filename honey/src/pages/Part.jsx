@@ -18,7 +18,7 @@ const Part = () => {
           loaded={particlesLoaded}
           options={{
             background: {
-              color: "rgb(10,10,25)",
+              color: "rgb(140, 47, 57)",
             },
             particles: {
               number: {
